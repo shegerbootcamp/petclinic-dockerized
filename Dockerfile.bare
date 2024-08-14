@@ -1,0 +1,7 @@
+FROM alpine
+
+RUN adt update -y
+
+RUN apt install openjdk-11-jdk -y
+RUN apt install maven -y
+
